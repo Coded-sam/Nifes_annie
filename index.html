@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Bedahub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="nifes annie Logo">
+        <a href="login.php">SIGN UP</a>
+    </div>
+    
+    <div class="categories">
+        <div>
+            <img src="images/fashion.png" alt="Fashion">
+            <p>Fashion</p>
+        </div>
+        <div>
+            <img src="images/jewelry.png" alt="Jewelries">
+            <p>Jewelries</p>
+        </div>
+        <!-- Add more categories similarly -->
+    </div>
+
+    <div class="products">
+        <div class="product">
+            <h3>Necklace</h3>
+            <p><strong>₦ 2000</strong></p>
+            <p>Mira collection <a href="#">Follow</a></p>
+            <p>Two months ago</p>
+            <p><a href="#">see more..</a></p>
+            <div class="actions">
+                <span onclick="favorite()">favorite</span>
+                <span onclick="share()">share</span>
+            </div>
+            <a href="https://wa.me/yourphonenumber?text=I'm%20interested%20in%20the%20Necklace%20for%20₦2000" class="order-now-btn">Order Now</a>
+        </div>
+        <!-- Add more products similarly -->
+    </div>
+
+    <div class="nav-bar">
+        <a href="index.html"><i class="fas fa-home"></i> HOME</a>
+        <a href="favorite.html"><i class="fas fa-heart"></i> FAVORITE</a>
+        <a href="add_circle.html"><i class="fas fa-plus-circle"></i> ADD CIRCLE</a>
+        <a href="store.html"><i class="fas fa-store"></i> STORE</a>
+        <a href="profile.php"><i class="fas fa-user"></i> PROFILE</a>
+    </div>
+
+    <script>
+        function favorite() {
+            alert('Added to favorite!');
+        }
+
+        function share() {
+            alert('Shared successfully!');
+        }
+    </script>
+</body>
+</html>

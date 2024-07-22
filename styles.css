@@ -1,0 +1,160 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+  ,align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    height: 40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.categories div {
+    text-align: center;
+    margin: 10px;
+    flex: 1 0 21%;
+}
+
+.categories img {
+    width: 60px;
+    height: 60px;
+}
+
+.products {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.products .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.products .product h3 {
+    margin: 0;
+}
+
+.products .product p {
+    margin: 5px 0;
+}
+
+.products .product .actions span {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.order-now-btn {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #25D366;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.order-now-btn:hover {
+    background-color: #128C7E;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar i {
+    margin-right: 5px;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-form h2 {
+    margin-top: 0;
+}
+
+.login-form label, 
+.login-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.profile {
+    padding: 20px;
+    background-color: #f8f8f8;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile p {
+    margin: 10px 0;
+}
